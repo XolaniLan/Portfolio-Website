@@ -17,10 +17,12 @@ const About = () => {
           <Info />
 
           <p className='about__description'>
-            Aspiring Java Software Developer and Frontend Developer Intern,
-            I create web pages with UI / UX user interface, and backend web logic
-            I have a few years of experience and so far many of my clients were happy with the
-            projects carried out for them.
+            Looking ahead, I am enthusiastic about contributing my creative prowess to a team where innovation thrives.
+            I am poised to delve into the ever-evolving tech landscape, seeking to push boundaries, challenge conventions,
+            and pioneer solutions that resonate on a global scale.
+
+            As I embark on this exhilarating journey, I am eager to immerse myself in an environment that fosters innovation,
+            fuels creativity, and values the fusion of technology and imagination.
           </p>
 
           <a download='' href={CV} className='button button--flex'>
