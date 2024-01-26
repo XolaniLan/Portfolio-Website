@@ -3,6 +3,7 @@ import Work2 from '../../assets/work2.jpg';
 import Work3 from '../../assets/work3.jpg';
 import Work4 from '../../assets/work4.jpg';
 import Work5 from '../../assets/work5.jpg';
+import Work6 from '../../assets/work6.jpg';
 
 export const projectsData = [
   {
@@ -38,7 +39,7 @@ export const projectsData = [
     sourceCode: 'https://github.com/XolaniLan/Outeniqua-Grilli-Restaurant',
     livePreview: 'https://outeniqua-grilli-restaurant.vercel.app/'
   },
-  
+
   {
     id: 5,
     image: Work2,
@@ -47,6 +48,14 @@ export const projectsData = [
     sourceCode: 'https://github.com/XolaniLan/BankApplication/tree/main',
     livePreview: 'https://bank-application-bay.vercel.app/'
   },
+  {
+    id: 6,
+    image: Work6,
+    title: 'DailyNotes Application',
+    category: 'Javascript Website',
+    sourceCode: 'https://github.com/XolaniLan/DailyNotes-Application',
+    livePreview: 'https://daily-notes-application.vercel.app/'
+  }
 ];
 
 export const projectsNav = [
