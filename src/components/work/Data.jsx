@@ -60,7 +60,7 @@ export const projectsData = [
 
 export const projectsNav = [
   {
-    name: 'HTML5, CSS3, JavaScript',
+    name: 'Applications',
   },
   // {
   //   name: 'Web',
