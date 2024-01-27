@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Backend = () => {
+const DevOps_Tools = () => {
   return (
     <div className='skills__content'>
-      <h3 className='skills__title'>Backend Development Technologies</h3>
+      <h3 className='skills__title'>DevOps Tools</h3>
 
       <div className='skills__box'>
         <div className='skills__group'>
@@ -11,7 +11,7 @@ const Backend = () => {
             <i className='bx bx-badge-check'></i>
 
             <div>
-              <h3 className='skills__name'>Java</h3>
+              <h3 className='skills__name'>Linux</h3>
               <span className='skills__level'>Intermediate</span>
             </div>
           </div>
@@ -20,7 +20,7 @@ const Backend = () => {
             <i className='bx bx-badge-check'></i>
 
             <div>
-              <h3 className='skills__name'>C++</h3>
+              <h3 className='skills__name'>Docker</h3>
               <span className='skills__level'>Basic</span>
             </div>
           </div>
@@ -29,7 +29,7 @@ const Backend = () => {
             <i className='bx bx-badge-check'></i>
 
             <div>
-              <h3 className='skills__name'>Python</h3>
+              <h3 className='skills__name'>Kubernetes</h3>
               <span className='skills__level'>Basic</span>
             </div>
           </div>
@@ -40,8 +40,8 @@ const Backend = () => {
             <i className='bx bx-badge-check'></i>
 
             <div>
-              <h3 className='skills__name'>MySQL</h3>
-              <span className='skills__level'>Intermediate</span>
+              <h3 className='skills__name'>Git(Version Control)</h3>
+              <span className='skills__level'>Basic to almost Intermediate</span>
             </div>
           </div>
 
@@ -49,7 +49,7 @@ const Backend = () => {
             <i className='bx bx-badge-check'></i>
 
             <div>
-              <h3 className='skills__name'>Node js</h3>
+              <h3 className='skills__name'>AWS Cloud Services</h3>
               <span className='skills__level'>Basic</span>
             </div>
           </div>
@@ -58,8 +58,8 @@ const Backend = () => {
             <i className='bx bx-badge-check'></i>
 
             <div>
-              <h3 className='skills__name'>SQL</h3>
-              <span className='skills__level'>Intermediate</span>
+              <h3 className='skills__name'>Azure Cloud Services</h3>
+              <span className='skills__level'>Basic</span>
             </div>
           </div>
         </div>
@@ -68,4 +68,4 @@ const Backend = () => {
   );
 };
 
-export default Backend;
+export default DevOps_Tools;
