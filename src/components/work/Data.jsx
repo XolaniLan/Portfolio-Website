@@ -4,13 +4,14 @@ import Work3 from '../../assets/work3.jpg';
 import Work4 from '../../assets/work4.jpg';
 import Work5 from '../../assets/work5.jpg';
 import Work6 from '../../assets/work6.jpg';
+import Work7 from '../../assets/work7.jpg';
 
 export const projectsData = [
   {
     id: 1,
     image: Work5,
     title: 'Recipe Application',
-    category: 'app',
+    category: 'JavaScript && APIs Applications',
     sourceCode: 'https://github.com/XolaniLan/Recipo-Application',
     livePreview: 'https://recipo-application.vercel.app/'
   },
@@ -18,7 +19,7 @@ export const projectsData = [
     id: 2,
     image: Work1,
     title: 'Walxom Real Estate Webiste',
-    category: 'Website',
+    category: 'Websites',
     sourceCode: 'https://github.com/XolaniLan/Walxom-Real-Estate-Website/tree/main/Walxom%20Real%20Estate',
     livePreview: 'https://walxom-real-estate-website-jg2c.vercel.app/'
   },
@@ -26,7 +27,7 @@ export const projectsData = [
     id: 3,
     image: Work3,
     title: 'Home Automation',
-    category: 'Website',
+    category: 'Websites',
     sourceCode: 'https://github.com/XolaniLan/SmartCastleHomeAutomation',
     livePreview: 'https://smart-castle-home-automation.vercel.app/'
 
@@ -35,7 +36,7 @@ export const projectsData = [
     id: 4,
     image: Work4,
     title: 'Restaurant Website',
-    category: 'app',
+    category: 'Websites',
     sourceCode: 'https://github.com/XolaniLan/Outeniqua-Grilli-Restaurant',
     livePreview: 'https://outeniqua-grilli-restaurant.vercel.app/'
   },
@@ -44,7 +45,7 @@ export const projectsData = [
     id: 5,
     image: Work2,
     title: 'Bank Application(xs, 1111/sd, 2222)',
-    category: 'Javascript Website',
+    category: 'JavaScript && APIs Applications',
     sourceCode: 'https://github.com/XolaniLan/BankApplication/tree/main',
     livePreview: 'https://bank-application-bay.vercel.app/'
   },
@@ -52,22 +53,31 @@ export const projectsData = [
     id: 6,
     image: Work6,
     title: 'DailyNotes Application',
-    category: 'Javascript Website',
+    category: 'JavaScript && APIs Applications',
     sourceCode: 'https://github.com/XolaniLan/DailyNotes-Application',
     livePreview: 'https://daily-notes-application.vercel.app/'
+  },
+  {
+    id: 7,
+    image: Work7,
+    title: 'InnkStockMedia Application',
+    category: 'JavaScript && APIs Applications',
+    sourceCode: 'https://github.com/XolaniLan/InnkStockMediaApplication',
+    livePreview: 'https://innk-stock-media-application.vercel.app/'
   }
 ];
 
 export const projectsNav = [
+
   {
-    name: 'Applications',
+    name: 'All',
   },
-  // {
-  //   name: 'Web',
-  // },
-  // {
-  //   name: 'app',
-  // },
+  {
+    name: 'Websites',
+  },
+  {
+    name: 'JavaScript && APIs Applications',
+  },
   // {
   //   name: 'design',
   // },
