@@ -53,9 +53,10 @@ export const projectsData = [
     id: 6,
     image: Work6,
     title: 'DailyNotes Application',
-    category: 'JavaScript && APIs Applications',
+    category: 'Dockerized Applications',
     sourceCode: 'https://github.com/XolaniLan/DailyNotes-Application',
-    livePreview: 'https://daily-notes-application.vercel.app/'
+    livePreview: 'https://daily-notes-application.vercel.app/',
+    dockerHub: 'https://hub.docker.com/repository/docker/xolanilan/my-app/general',
   },
   {
     id: 7,
@@ -78,7 +79,7 @@ export const projectsNav = [
   {
     name: 'JavaScript && APIs Applications',
   },
-  // {
-  //   name: 'design',
-  // },
+  {
+    name: 'Dockerized Applications',
+  },
 ];
